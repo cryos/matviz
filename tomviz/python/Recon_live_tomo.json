@@ -1,0 +1,56 @@
+{
+  "name" : "LiveTomo",
+  "label" : "Live Tomography Visualization",
+  "description" : "Get live updates of a volume reconstructed from a server.",
+  "children": [
+    {
+      "name": "live_tomo_tomviz",
+      "label": "Reconstruction",
+      "type": "reconstruction"
+    }
+  ],
+  "parameters" : [
+    {
+      "name" : "hostName",
+      "label" : "Server Hostname",
+      "type" : "string",
+      "default" : "localhost"
+    },
+    {
+      "name" : "userName",
+      "label" : "Server Username",
+      "type" : "string",
+      "default" : ""
+    },
+    {
+      "name" : "password",
+      "label" : "Server Password",
+      "type" : "string",
+      "default" : ""
+    },
+    {
+      "name" : "port",
+      "label" : "Server Port",
+      "type" : "int",
+      "default" : 8080
+    },
+    {
+      "name" : "filename",
+      "label" : "Output file name",
+      "type" : "string",
+      "default" : "live_monitor.h5"
+    },
+    {
+      "name" : "localDirectory",
+      "label" : "local monitoring directory",
+      "type" : "string",
+      "default" : ""
+    },
+    {
+      "name" : "remoteDirectory",
+      "label" : "remote monitoring directory",
+      "type" : "string",
+      "default" : ""
+    }
+  ]
+}
