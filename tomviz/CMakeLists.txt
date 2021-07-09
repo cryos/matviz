@@ -668,6 +668,7 @@ target_link_libraries(tomvizlib
     VTK::pugixml
     VTK::tiff
     VTK::DomainsChemistry
+    VTK::IOChemistry
     VTK::hdf5
     VTK::InteractionStyle
     VTK::RenderingVolume
